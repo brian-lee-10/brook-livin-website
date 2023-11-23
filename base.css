@@ -1,0 +1,53 @@
+:root {
+    --main-color: #00a5a1;
+    --black: #333;
+    --white: #eee;
+    font-family: 'Sora';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: var(--main-color);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-right: 2rem;
+}
+
+.nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--black);
+}
+
+#header-img {
+    width: 11.344rem;
+    height: 4.125rem;
+    padding-left: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin-top: 150px;
+}
