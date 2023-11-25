@@ -1,7 +1,7 @@
 :root {
     --main-color: #00a5a1;
     --black: #333;
-    --white: #eee;
+    --white: #ffffff;
     font-family: 'Sora';
 }
 
@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30rem;
+    width: 40rem;
     margin-left: 5rem;
 }
 
@@ -28,8 +28,83 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     box-shadow: 0 3px 10px black;
+    border-radius: 10px;
+}
+
+.description-bullet-points li {
+    margin-bottom: 8px;
+}
+
+.overview-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.overview-text {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .product-image {
     width: 35rem;
+}
+
+a.inquire-link {
+    margin-top: 20px;
+}
+
+button.inquire-button {
+    padding: 0.5rem;
+    width: 13rem;
+    font-family: "Sora";
+    border-radius: 20px;
+    border-color: var(--main-color);
+    color: var(--white);
+    background-color: var(--main-color);
+    font-size: larger;
+}
+
+button.inquire-button:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--main-color);
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wirecare-photo {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.wirecare-specs {
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3 {
+    color: #00a5a1;
+}
+
+.documents-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.documents-container div {
+    margin-right: 15rem;
+}
+
+.videos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem ;
 }
