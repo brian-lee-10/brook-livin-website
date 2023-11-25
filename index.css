@@ -5,10 +5,22 @@
     font-family: 'Sora';
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #wirecare-product-image {
     width: 100%;
 }
 
-h2 {
+h1 {
     color: var(--main-color);
+    padding: 1.5rem;
+}
+
+iframe {
+    padding-bottom: 3.5rem;
 }

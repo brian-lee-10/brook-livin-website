@@ -1,7 +1,7 @@
 :root {
     --main-color: #00a5a1;
     --black: #333;
-    --white: #eee;
+    --white: white;
     font-family: 'Sora';
 }
 
@@ -48,3 +48,31 @@ a {
     text-decoration: none;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1.5rem;
+}
+
+.all-contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 27.25rem;
+    padding-left: 2rem;
+}
+
+span {
+    margin-bottom: 10px;
+}
