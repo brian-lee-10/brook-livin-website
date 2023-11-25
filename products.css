@@ -5,6 +5,10 @@
     font-family: 'Sora';
 }
 
+body {
+    margin-top: 150px;
+}
+
 .product-container {
     display: flex;
     justify-content: center;

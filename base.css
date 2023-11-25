@@ -50,14 +50,42 @@ a {
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: absolute;
-    justify-content: center;
+    justify-content: space-evenly;
     left: 0;
     right: 0;
     background-color: var(--black);
     color: var(--white);
     padding: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+footer div a h3, span {
+    color: var(--white);
+}
+
+footer div a h3:hover {
+    text-decoration: underline;
+}
+
+footer div a span {
+    font-size: 14px;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-copyright * {
+    padding: 10px;
 }
 
 .all-contact-container {
